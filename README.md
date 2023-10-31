@@ -53,7 +53,7 @@ La mediana es una métrica que representa el valor que divide a la muestra en do
 
 El resultado del porcentaje de contestación durante el mes de septiembre fue del 10.41%. Teniendo en cuenta el objetivo del cliente de alcanzar un 35%, este resultado puede considerarse malo.
 
-<img src="images/sheets.jpg" width="450" height="300">
+<img src="images/sheets.JPG" width="450" height="300">
 
 Sin embargo este porcentaje se calcula con el número total de llamadas realizadas y las respuestas recibidas. Este cálculo puede no reflejar completamente la efectividad de las gestiones, ya que no tiene en cuenta el número de llamadas realizadas hasta lograr el contacto exitoso.
 
