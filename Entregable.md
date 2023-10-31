@@ -1,6 +1,6 @@
 # Assessment CS OPS - Vzy
 
-## Descripción del Assessment
+## Introducción
 
 Este Assessment se enfoca en el análisis de datos de gestión de cobranza para un Cliente X, una empresa que busca cumplir con sus objetivos de acuerdos de pago y contestación de llamadas durante el mes de septiembre de 2023. 
 El objetivo principal del proyecto es proporcionar información valiosa y recomendaciones basadas en datos para ayudar al equipo de Customer Success a mejorar el rendimiento y la eficacia de sus operaciones de cobranza.
@@ -31,9 +31,11 @@ Sin embargo para afirmar esto con mas precisión, me gustaría realizar las sigu
 
 3. Analizar cómo se compara septiembre con los otros meses del año en términos de acuerdos de pago.
 
-![evolucion objetivo acuerdos de pago](images/evolacuerdos.png)
 
-[Acceso al Análisis](1.ipynb)
+<img src="images/evolacuerdos.png" width="450" height="300">
+
+
+[Acceso al Análisis](https://github.com/VacaColl18/Assessment/blob/main/1.ipynb)
 
 ### 2. Cual es el valor promedio de acuerdos de pago por usuario único para el mes de septiembre?
 
@@ -41,11 +43,11 @@ Basado en el análisis de los datos de acuerdos de pago para el mes de septiembr
 
 Explorando los datos puedo observar que existen valores extremos (outliers), estos valores atípicos pueden afectar considerablemente el promedio
 
-![Outliers](images/boxplot.png)
+<img src="images/boxplot.png" width="450" height="300">
 
 La mediana es una métrica que representa el valor que divide a la muestra en dos mitades iguales y  no se ve afectada por outliers. Proporciona una representación más precisa del monto de la mayoría de los acuerdos de pago, que  fué de $28,392.
 
-[Acceso al Análisis](2.ipynb)
+[Acceso al Análisis](https://github.com/VacaColl18/Assessment/blob/main/2.ipynb)
 
 ### 3. El cliente espera tener un 35% de contestación durante el mes de septiembre, según tu análisis cual fue el resultado de este ítem? Fue bueno o malo? y por que?
 
@@ -53,18 +55,18 @@ El resultado del porcentaje de contestación durante el mes de septiembre fue de
 
 Sin embargo este porcentaje se calcula con el número total de llamadas realizadas y las respuestas recibidas. Este cálculo puede no reflejar completamente la efectividad de las gestiones, ya que no tiene en cuenta el número de llamadas realizadas hasta lograr el contacto exitoso.
 
-![Contactación](images/barrascontactacion.png)
+<img src="images/barrascontactacion.png" width="450" height="300">
 
 Como se puede observar en el gráfico, mas del 40% de usuarios, requirió ser llamado 3 veces para lograr la contactación.
 
 Por este motivo consideré relevante también, evaluar el porcentaje por usuario único. Al hacerlo, obtuve una métrica que proporciona una visión más precisa de cuántos usuarios se contactaron exitosamente durante el mes de septiembre, lo que puede ser más representativo de la efectividad de las gestiones.
 
-![Porcentaje de contactación](images/torta.png)
+<img src="images/torta.png" width="450" height="300">
 
 Por lo tanto, el porcentaje de contestación del 10.41% es bajo en comparación con el objetivo del 35%. 
 Considerando la métrica alternativa, el porcentaje de contestación por usuario único fue de 27.53%. Creo que este dato da una imagen más completa de la efectividad de las llamadas.
 
-[Acceso al Análisis](3.ipynb)
+[Acceso al Análisis](https://github.com/VacaColl18/Assessment/blob/main/3.ipynb)
 
 ### 4. De las llamadas contestadas se espera que al menos el 50% sean titulares, cuéntanos en el mes de septiembre, según tu análisis como estuvo este resultado?
 
@@ -74,11 +76,11 @@ Luego incluyo registros donde la titularidad se confirma a través de la columna
 
 Continuando con el enfoque en el índice de contactabilidad, se procedió a eliminar las llamadas duplicadas que podrían distorsionar los datos. Esto se debe a que en las llamadas en las que el usuario no confirma ser titular o en las que atiende otra persona, es probable que se realicen nuevos intentos de llamada en futuras campañas. 
 
-![Porcentaje de Titulares](images/donut.png)
+<img src="images/donut.png" width="450" height="300">
 
 En este escenario, el porcentaje de contactación de titulares alcanza el 63.53%.
 
-[Acceso al Análisis](4.ipynb)
+[Acceso al Análisis](https://github.com/VacaColl18/Assessment/blob/main/4.ipynb)
 
 ### 5. Según tu análisis, Cuales son las horas en las que mas se realizan llamadas, en las que mas se contestan llamadas y en las que hay mas efectividad?
 
@@ -88,7 +90,7 @@ Visualizando los datos, podemos observar que las horas en las que se realizan m�
 
 Las horas más efectivas en términos de respuesta y contactabilidad son de 13 a 15 horas. Sin embargo, la efectividad en la generación de compromisos de pago muestra su pico entre las 12 y las 13 horas.
 
-[Acceso al Análisis](PowerBI/Assessment%20Vozy.pbix)
+[Acceso al Análisis](https://drive.google.com/file/d/1XFocfMtGV9kVGJ_tK_vm8x4HzOASmCUo/view?usp=sharing)
 
 ### 6. Cuáles son los dos días de la semana más efectivos para realizar las gestiones?
 
@@ -96,7 +98,7 @@ Las horas más efectivas en términos de respuesta y contactabilidad son de 13 a
 
 Analizando los datos, podemos visualizar que los días más efectivos en términos de cantidad de llamadas contestadas, contactaciones, cantidad de acuerdos y monto de acuerdos son los martes y los miércoles.
 
-[Acceso al Análisis](PowerBI/Assessment%20Vozy.pbix)
+[Acceso al Análisis](https://drive.google.com/file/d/1XFocfMtGV9kVGJ_tK_vm8x4HzOASmCUo/view?usp=sharing)
 
 ### 7. Porcentualmente cuales son los motivos de cuelgue en las llamadas?
 
@@ -111,7 +113,7 @@ El porcentaje de los motivos de las finalizaciones de las llamadas del mes de se
 - 7.27%: CALL_ENDED_PROPERLY - Llamada finalizada correctamente.
 - 0.43%: Otro.
 
-[Acceso al Análisis](PowerBI/Assessment%20Vozy.pbix)
+[Acceso al Análisis](https://drive.google.com/file/d/1XFocfMtGV9kVGJ_tK_vm8x4HzOASmCUo/view?usp=sharing)
 
 ### 8. Cuáles son los nodos en los que están terminando las llamadas no exitosas, pero que son contestadas.
 
@@ -127,7 +129,7 @@ Nodo "2_voicemail": También se observa un número considerable de llamadas no e
 
 Nodo "2_contact_yes_VENCIDA": Este grupo de llamadas no exitosas es posible que sea de llamados por recordatorios de vencimiento de propuestas de pago.
 
-[Acceso al Análisis](PowerBI/Assessment%20Vozy.pbix)
+[Acceso al Análisis](https://drive.google.com/file/d/1XFocfMtGV9kVGJ_tK_vm8x4HzOASmCUo/view?usp=sharing)
 
 ## Otras Preguntas
 
@@ -143,6 +145,8 @@ En cuanto a las visualizaciones y Business Intelligence, opciones como Power BI,
 En la imagen, presento un Dashboard interactivo realizado en Power BI, una herramienta con una muy buena integración a las bases de datos y una excelente interacción con el cliente.
 
 La elección de las herramientas también depende de la cantidad y complejidad de los datos. De todos modos, estoy dispuesto a adaptarme y profundizar en el aprendizaje de la herramienta que tengamos disponible, o que nuestros clientes requieran, así como aprender nuevas.
+
+[Descarga del Dashboard](https://drive.google.com/file/d/1XFocfMtGV9kVGJ_tK_vm8x4HzOASmCUo/view?usp=sharing)
 
 ### 2. En este momento las llamadas no están siendo ejecutadas dentro de la plataforma de Vozy, y tenemos un ticket escalado al equipo de operaciones para abordar este problema. ¿Qué acciones tomarías para priorizar este caso?
 
